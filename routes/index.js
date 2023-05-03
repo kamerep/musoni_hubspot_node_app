@@ -19,7 +19,7 @@ router.get('/', function(req, res, next) {
 
 
 var options = {
-  url: 'https://api.hubapi.com/crm/v3/objects/contacts/?limit=50&hs_lead_status=Client ready to be created in Musoni',
+  url: 'https://api.hubapi.com/crm/v3/objects/contacts/?limit=2000&hs_lead_status=Client ready to be created in Musoni',
   method: 'GET', // Don't forget this line
   headers: {
     'Authorization': `Bearer pat-na1-61a724b5-312d-4a98-9bbf-28d8872cd92f`,
